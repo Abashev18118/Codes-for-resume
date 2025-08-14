@@ -1,0 +1,248 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Roboto,sans-serif;
+}
+.header {
+  width: 100%; /* или конкретное значение, например 1200px */
+  height: 84px; /* или другое значение */
+  background-image: url("11Rectangle.png");
+  background-position: center center;
+  position:fixed;
+  z-index: 1;
+  top:0;
+  
+}
+.block1{
+  width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.kart {
+  padding-left:355px;
+  padding-top:26px ;
+  width: 120px; /* */
+  height: 30px; /* Тут все меняется */ 
+}
+.text{
+  position: absolute; /* Меняем relative на absolute */
+  top: 32px; /* Позиционируем сверху */
+  right: 300px; /* Позиционируем справа */
+  color: white;
+  font-size: 20px;
+  
+}
+.text :visited{
+  color: white;
+}
+.Second{
+  height: 360px;
+  background-image: url("2header.png");
+  background-size: 100% 100%; /* Растянуть изображение по ширине и высоте */
+  background-position: center center;
+  width: 100%;
+  margin-top: 84px;
+}
+.Begin{
+  width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin: 0 auto;
+  max-width: 100%
+}
+.text2{
+  color: white;
+  text-align: center;
+  line-height: 360px; /* Высота строки равна высоте блока */
+  font-size: 72px;
+}
+.Thirdpart{
+  width: 100%; /* или конкретное значение, например 1200px */
+  height: 641px; /* или другое значение */
+  background-color: #EEEEEE;
+  position: relative;
+  
+}
+
+.rovn {
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  max-width: 100%;
+  
+}
+
+.thirdt {
+  color: #007765;
+  font-size: 64px;
+  text-align: center; /* только заголовок центрируем */
+}
+
+.bigtext {
+  text-align: left; /* основной текст - по левому краю/по ширине */
+  font-size: 32px;
+  position: absolute;
+  left: 15%;
+}
+.osnova{
+  width: 100%;
+  background-image: url("3maininfo.png");
+  background-size: cover;
+  background-position: center center;
+  background-size: 100% 100%;
+  padding-top: 128px;
+  padding-bottom: 128px;
+}
+.samtext{
+  font-family:Roboto,sans-serif;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 48px;
+  text-align: center;
+
+}
+.korobka{
+  box-sizing: border-box;
+  max-width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Obtek{
+  width: 100%;
+  height: 604px;
+  background-color: white;
+  position: relative;
+}
+.gbigtext{
+  box-sizing: border-box;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-size: 58px;
+  color: #007765;
+  margin-left: auto;
+  margin-right: auto;
+  left: 28%;
+  position: absolute;
+  top: 14%;
+}
+.ab{
+  box-sizing: border-box;
+  width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 32px;
+  position: absolute;
+  left: 17%;
+  top: 26%;
+
+}
+.ris{
+  float: left;
+  padding-right: 25px;
+}
+.lasttext{
+  box-sizing: border-box;
+  width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 32px;
+  position: absolute;
+  top: 42%;
+  left: 17%;
+}
+.abrikos{
+  max-width:1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.bolshaya{
+  background-color: #EEEEEE;
+  width: 100%;
+  height: 654px;
+  
+}
+.Z{
+  font-size: 64px;
+  color: #007765;
+  text-align: center;
+  padding-top: 6%;
+}
+.gt{
+  font-size: 18px;
+  color: #007765;
+  font-weight: 700;
+}
+.ns{
+  font-size: 14px;
+}
+.vint{
+  box-sizing: border-box;
+  max-width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.r1{
+  text-align: center;
+  padding-right: 50%;
+  padding-top: 5%;
+}
+.r2{
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  left: 45%;
+}
+.r3{
+  text-align: center;
+  position: absolute;
+  left: 66%;
+  top: 55%;
+}
+.r4{
+  text-align: center;
+  position: absolute;
+  top: 120%;
+  left: 21.8%;
+}
+.r5{
+  text-align: center;
+  position: absolute;
+  left: 44.5%;
+  top: 120%;
+}
+
+.r6{
+  text-align: center;
+  position: absolute;
+  left: 66.7%;
+  top: 120%;
+}
+.chorn{
+  width: 100%;
+  height: 150px;
+  background-color: #333333;
+}
+.yashik{
+  max-width: 1219px;
+  padding-left: 55px;
+  padding-right: 55px;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 9.5%;
+  padding-top: 3.5%;
+}
