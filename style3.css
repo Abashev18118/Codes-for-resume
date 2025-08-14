@@ -1,0 +1,308 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.HEADER{
+  width: 100%;
+  height: 75px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  
+}
+.header1{
+  width: 80%;
+  max-width: 1350px;
+  display: flex;
+  
+  align-items: center;
+  margin: auto auto;
+}
+
+
+.button { 
+    height: 35px;
+    width: 70px;
+    background-color: white;
+    border-color: #E0E0E0;
+    border-width: 0.75px;
+ }
+ .logo1{
+    
+    margin-left: -55px;
+ }
+ .button1{
+    margin-left: 1075px;
+ }
+ .korsina1{
+    margin-left: 18px; 
+ }
+
+ .BILDBORD{
+  width: 100%;
+  height: 450px;
+  background-image: url("photo.png");
+  background-size: cover;
+  background-position: center center;
+  background-size: 100% 100%;
+  display: flex;
+  
+ }
+ .bord{
+    width: 30%;
+    height:225px ;
+    background-color: white;
+    margin-top: 100px;
+    margin-left:100px ;
+ }
+ .glavn{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 35px;
+ }
+ .valuta{
+    font-size: 18px;
+    color: #626262;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+ }
+ .oval{
+    background-color: #262626;
+    width: 120px;
+    height: 40px;
+    color: white;  
+    border-radius: 3em;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .oneline{
+    display: flex;
+    align-items: center; /* Выравниваем по вертикали */
+    gap: 90px;          /* Расстояние между элементами */
+    margin-top: 40px;   /* Отступ от заголовка */
+    margin-left: 50px;
+ }
+ .mainpart1{
+  width: 100%;
+  height: 75px;
+  background-color: rgb(255, 255, 255);
+  
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgb(203, 203, 203);
+ }
+ .part1{
+  width: 70%;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  gap: 70px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .Kartoteka{
+  width: 100%;
+  height: 800px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  
+  margin-bottom: 50px;
+ }
+ .KARDS {
+  width: 90%;
+  max-width: 1550px;
+  margin-left: -80px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; /* Равномерный отступ между карточками */
+  row-gap: 40px;
+  margin-top: 120px;
+}
+
+.kart {
+  width: calc(50% - 30px); /* Ширина 50% минус отступы */
+  height: 160px;
+  border: 1px solid rgb(203, 203, 203);
+  border-width: 2px;
+   /* Отступ между строками */
+  
+  box-sizing: border-box; /* Чтобы padding не ломал вёрстку */
+}
+ .name{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 15px;
+    margin-top: 12px; 
+}
+ .sostav{
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 8px;
+    color: #626262;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+.kartina{
+    align-self: flex-start; /* Выравниваем картинку по правому краю */
+    margin-top: -65px; /* Поднимаем картинку выше */
+    margin-left: 478px;
+    
+}
+.cena{
+   font-size: 17px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+   align-self: flex-start;
+   margin-top: -41px;  
+   margin-left: 15px;
+}
+.slovo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    margin-left: 100px;
+    font-size: 22px;
+    margin-top: 40px;
+}
+.FOOTER{
+  width: 100%;
+  height: 160px;
+  background-color: #262626;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgb(203, 203, 203);
+  
+}
+
+.footer1{
+   width: 86%;
+   height: 160px;
+   max-width: 1550px;
+   display: flex; 
+   margin-left: 100px;
+   border-bottom: 1px solid rgb(162,159,159);
+   
+}
+.block11{
+   display: flex;
+   margin-top: 70px;
+}
+.FOOTER1{
+  width: 100%;
+  height: 285px;
+  background-color: #262626;
+  display: flex;
+  align-items: center;
+}
+.footer2{
+   width: 86%;
+   height: 285px;
+   max-width: 1550px;
+   display: flex; 
+   margin-left: 100px;
+   border-bottom: 1px solid rgb(162,159,159);
+}
+.block12 {
+  display: flex;
+  flex-direction: column; /* Вертикальное расположение */
+  gap: 1px; /* Отступ между строками */
+  margin-top: 70px;
+  margin-right: 45px;
+  width: 20%;
+}
+
+.dvacveta {
+  font-size: 20px;
+  margin: 0; /* Убираем все отступы */
+}
+.begspisok {
+  width: 100%;
+}
+select {
+   -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 310px;
+    height: 44px;
+    padding: 0 32px 0 12px;
+    background-color: #535353;
+    color: white;
+    border: none; /* Убираем стандартную обводку */
+    outline: none;
+    
+    font-size: 16px;
+    cursor: pointer;
+    
+    /* Белая Material-стрелка (expand_more) */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 -960 960 960' width='24' fill='white'%3E%3Cpath d='M480-345 240-585l56-56 184 184 184-184 56 56-240 240Z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 28px;
+}
+.social-icons {
+  display: flex;
+  gap: 15px; /* Отступ между иконками */
+  align-items: center;
+}
+.tablet{
+   margin-top: 70px;
+   color: white;
+   font-size: 18px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tabletka{
+  width: 62%;
+  max-width: 1350px;
+  display: flex;
+  
+  align-items: center;
+  margin: auto auto;
+}
+.FOOTER2{
+  width: 100%;
+  height: 160px;
+  background-color: #262626;
+  display: flex;
+  align-items: center;
+  
+  
+}
+.footer3{
+   width: 86%;
+   height: 160px;
+   max-width: 1550px;
+   display: flex; 
+   margin: auto auto;
+   border-bottom: 1px solid rgb(162,159,159);
+   
+   
+}
+.block122{
+   display: flex;
+   width: 80%;
+   gap: 45px;
+   margin-top: 60px;
+   margin-left: 500px;
+}
+.FOOTER3{
+  width: 100%;
+  height: 120px;
+  background-color: #262626;
+  display: flex;
+  align-items: center;
+}
+.footer4{
+   width: 86%;
+   height: 120px;
+   max-width: 1550px;
+   display: flex; 
+   margin: auto auto;
+}
+.block222{
+   font-size: 15px;
+   color: white;
+   display: flex;
+   align-items: center;
+   gap: 265px;
+}
